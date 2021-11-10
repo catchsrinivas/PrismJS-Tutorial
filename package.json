@@ -1,0 +1,33 @@
+{
+  "name": "prism-js-tutorial",
+  "version": "1.0.0",
+  "description": "PrismJS React Tutorial ",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "start": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Srinivas Ramakrishna",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.2.0",
+    "path": "^0.12.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "babel-plugin-prismjs": "^2.1.0",
+    "prismjs": "^1.25.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
